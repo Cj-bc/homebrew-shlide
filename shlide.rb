@@ -3,7 +3,7 @@ class Shlide < Formula
   homepage "https://github.com/Cj-bc/shlide"
   url "https://github.com/Cj-bc/shlide/archive/v#{version}.tar.gz"
   version "0.1.0"
-  sha256 ""
+  sha256 "1f4674c80a34b166379ca8604881683d4fa243b493f50a460ed5f4867a1635c8"
 
   def install
     system 'vim +\'%s#\$( cd "\${BASH_SOURCE\[0\]%\/\*}" && pwd )#' + prefix + '#g\' +w! +q shlide.oo.sh'
